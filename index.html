@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de inscrição</title>
+    <link rel="stylesheet" href="./styles/styles.css">
+</head>
+
+<body>
+    <main class="formulario">
+        <section>
+            <div class="container">
+                <div class="form">
+                    <form action="#">
+                        <div class="title">
+                            <h1>Inscreva-se</h1>
+                        </div>
+
+                        <div class="input-group">
+                            <div class="input-box">
+                                <label for="fullname">Nome Completo</label>
+                                <input id="fullname" type="text" name="fullname" placeholder="Seu nome completo"
+                                    required>
+                            </div>
+
+                            <div class="input-box">
+                                <label for="cpf">CPF</label>
+                                <input id="cpf" type="text" name="cpf" placeholder="Seu CPF" required>
+                            </div>
+                            <div class="input-box">
+                                <label for="email">E-mail</label>
+                                <input id="email" type="email" name="email" placeholder="Seu e-mail" required>
+                            </div>
+
+                            <div class="input-box">
+                                <label for="phone">Telefone</label>
+                                <input id="phone" type="tel" name="phone" placeholder="(xx) xxxx-xxxx" required>
+                            </div>
+
+                            <div class="input-box">
+                                <label for="address">Endereço</label>
+                                <input id="address" type="text" name="address" placeholder="Seu endereço" required>
+                            </div>
+
+                            <div class="input-box">
+                                <label for="city">Cidade</label>
+                                <input id="city" type="text" name="city" placeholder="Nome da sua cidade" required>
+                            </div>
+
+                        </div>
+
+
+                        <div class="envio-doc">
+                            <div class="documentos">
+                                <h5 class="h-style">Documento de Identidade</h5>
+                                <div class="doc">
+                                    <img class="img-doc-id" src="assests/Component 2.png" alt="">
+                                    <div class="p">
+                                        <p class="p-text">Selecione arquivo ou arraste pra cá</p>
+                                        <p class="p1"> JPG, PNG ou PDF</p>
+
+                                    </div>
+
+                                    <label class="selecionar" for="identidade">Selecionar</label>
+                                    <input type="file" id="identidade" name="identidade" accept=".jpg, .png, .pdf"
+                                        style="display: none;">
+                                </div>
+
+                            </div>
+
+                            <div class="documentos">
+                                <h5 class="h-style">Comprovante de Residência</h5>
+                                <div class="doc">
+                                    <img class="img-doc-id" src="assests/Component 2.png" alt="">
+                                    <div class="p">
+                                        <p class="p-text">Selecione arquivo ou arraste pra cá</p>
+                                        <p class="p1"> JPG, PNG ou PDF</p>
+                                    </div>
+                                    <div class="selecionar">
+                                        <label class="selecionar" for="comprovante_residencia">Selecionar</label>
+                                        <input type="file" id="comprovante_residencia" name="comprovante_residencia"
+                                            accept=".jpg, .png, .pdf" style="display: none;">
+                                    </div>
+
+                                </div>s
+
+                            </div>
+                        </div>
+
+                        <p class="atencao">*Atenção: Todos os dados acima são obrigatórios</p>
+                        <label class="declare"><input type="checkbox" required>Declaro que as informações fornecidas
+                            acima são verdadeiras e corretas</label>
+                        <label class="declare"><input type="checkbox" required>Confirmo minha inscrição nesse
+                            formulários</label>
+
+                        <div class="botoes">
+                            <button class="cancelar-button"><a href="#">Cancelar</a></button>
+                            <button class="enviar-button"><a href="#">Enviar</a></button>
+                        </div>
+                    </form>
+
+                </div>
+
+            </div>
+        </section>
+        <div class="img-apresentacao">
+            <img src="assests/trilhas.png" alt="trilhas">
+        </div>
+    </main>
+    <footer class="rodape">
+        <img src="./assests/inova.png" alt="Logo Inova">
+        <img src="./assests/logoMA.png" alt="Logo Gov Maranhão">
+    </footer>
+</body>
+
+</html>
